@@ -56,25 +56,26 @@ const GallerySection = () => {
                 </motion.div>
 
                 {/* Column 2 - Moves Down (slower) */}
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-800">
-                    <img src={galleryImages[2]} alt="Dental implant consultation room" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
-                </div>
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-900">
-                    <img src={galleryImages[3]} alt="Clinic" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
-                </div>
-            </motion.div>
+                <motion.div style={{ y: y2 }} className="flex flex-col gap-8 w-1/3 md:w-1/4 -mt-20">
+                    <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-800">
+                        <img src={galleryImages[2]} alt="Dental implant consultation room" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
+                    </div>
+                    <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-900">
+                        <img src={galleryImages[3]} alt="Clinic" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
+                    </div>
+                </motion.div>
 
-            {/* Column 3 - Moves Up (fast) */}
-            <motion.div style={{ y: y3 }} className="flex flex-col gap-8 w-1/3 md:w-1/4">
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-900">
-                    <img src={galleryImages[4]} alt="Clinic" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
-                </div>
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-800">
-                    <img src={galleryImages[5]} alt="Clinic" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
-                </div>
-            </motion.div>
-        </div>
-        </section >
+                {/* Column 3 - Moves Up (fast) */}
+                <motion.div style={{ y: y3 }} className="flex flex-col gap-8 w-1/3 md:w-1/4">
+                    <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-900">
+                        <img src={galleryImages[4]} alt="Clinic" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
+                    </div>
+                    <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-800">
+                        <img src={galleryImages[5]} alt="Clinic" className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500" />
+                    </div>
+                </motion.div>
+            </div>
+        </section>
     );
 };
 
