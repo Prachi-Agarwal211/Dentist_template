@@ -96,8 +96,8 @@ const TestimonialsSection = () => {
 
                     {/* Controls */}
                     <div className="flex justify-center gap-4 mt-8">
-                        <button onClick={prev} className="p-4 rounded-full bg-white/5 border border-white/10 hover:bg-emerald-500 hover:border-emerald-500 hover:text-black transition-all">←</button>
-                        <button onClick={next} className="p-4 rounded-full bg-white/5 border border-white/10 hover:bg-emerald-500 hover:border-emerald-500 hover:text-black transition-all">→</button>
+                        <button onClick={prev} className="p-4 rounded-full btn-embossed text-white">←</button>
+                        <button onClick={next} className="p-4 rounded-full btn-embossed text-white">→</button>
                     </div>
                 </div>
             </div>

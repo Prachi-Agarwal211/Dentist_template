@@ -145,7 +145,7 @@ const Footer = () => {
                             />
                             <button
                                 type="submit"
-                                className="px-6 py-3 bg-gradient-to-r from-red-800 via-red-700 to-emerald-700 text-white font-medium rounded-xl hover:shadow-lg hover:shadow-emerald-700/30 transition-all duration-300 ripple"
+                                className="px-6 py-3 btn-embossed text-white rounded-r-xl font-medium"
                             >
                                 Subscribe
                             </button>

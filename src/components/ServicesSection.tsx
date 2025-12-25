@@ -76,8 +76,8 @@ const ServicesSection = () => {
                                 <p className="text-xl text-gray-300 leading-relaxed">
                                     {service.desc}
                                 </p>
-                                <button className="mt-8 px-6 py-2 rounded-full border border-white/30 text-white hover:bg-emerald-500 hover:border-emerald-500 hover:text-black transition-all">
-                                    View Details
+                                <button className="mt-8 px-6 py-2 btn-embossed text-white rounded-full">
+                                    Learn More
                                 </button>
                             </div>
                         </div>
